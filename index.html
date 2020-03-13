@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="mail.css" />
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        ФОРМА ВХОДА
+    </div>
+    <div class="container">
+        <form action="" onsubmit="validate();">
+            <input onchange="changeUserName()" id="Username" type="text" placeholder="&#9787; USERNAME..." required=""/><br />
+            <input onchange="changePassword()" id="Password" type="password" placeholder="&#128274; Password" required=""/>
+            <input id="date" type="date" required=""/>
+            <button id="button" type="submit" onclick="value()">ВОЙТИ</button>
+        </form>
+        <p><input class="Remember" type="checkbox" name="a" value="Remember me" checked>запомнить</p>
+        <em><p class="Forg"><a href="https://github.com/antongusachenko" target="_blank">Забыл пароль | Регистрация</a></p></em>
+
+
+    </div>
+</body>
+<script type="text/javascript" src="mail.js"></script>
+
+</html>
